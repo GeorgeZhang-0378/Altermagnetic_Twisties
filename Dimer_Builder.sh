@@ -40,6 +40,13 @@ ${a} 0 0
 ${elem}  ${x}  ${y}  ${z1}
 ${elem}  ${x}  ${y}  ${z2}
 %ENDBLOCK POSITIONS_ABS
+
+%block spectral_kpoint_path
+M
+G
+X
+R
+%endblock spectral_kpoint_path
 EOF
 
 echo "[ok] wrote $seed"
